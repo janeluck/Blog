@@ -1,0 +1,19 @@
+---
+title: git常用命令
+date: 2018-02-11 08:20:38
+tags: Git
+---
+
++ git fetch
++ git pull
++ git pull origin master
+
++ git merge
+
++ git remote -v
++ git remote add [name] [url]
+
++ git log
++ git log --stat
+
++ git diff HEAD~ HEAD
