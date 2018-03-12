@@ -22,6 +22,8 @@ tags: Css
 6. 任何z-index是auto的定位子元素， 以及z-index是0的层叠上下文组成的层
 7. 层叠级别为正值的后代层叠上下文
 
+![](/uploads/stacklevel.png)
+
 
 ##### 附注：
 + 最初的层叠上下文是`root Element`
