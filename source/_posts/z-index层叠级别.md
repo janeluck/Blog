@@ -5,15 +5,33 @@ tags: Css
 ---
 
 
+##### z-index<integer>:
+
+只适用于定位元素, 不可继承, 计算值同设定值。
++ 该值指定了元素在当前层叠上下文中的层叠级别
++ 同时生成一个局部层叠上下文
 
 
-codepen:
+##### 层叠规则:
+
+1. 形成层叠上下文的元素的背景和边框
+2. 层叠级别为负值的后代层叠上下文
+3. 常规流内非行内非定位的子元素组成的层
+4. 非定位的浮动子元素和他们的内容组成的层
+5. 常规流内行内非定位子元素组成的层
+6. 任何z-index是auto的定位子元素， 以及z-index是0的层叠上下文组成的层
+7. 层叠级别为正值的后代层叠上下文
+
+
+##### 附注：
++ 最初的层叠上下文是`root Element`
++ codepen:  <p data-height="265" data-theme-id="0" data-slug-hash="jzPpdP" data-default-tab="html,result" data-user="janeluck" data-embed-version="2" data-pen-title="z-index" class="codepen">See the Pen <a href="https://codepen.io/janeluck/pen/jzPpdP/">z-index</a> by janeluck (<a href="https://codepen.io/janeluck">@janeluck</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 
 
 
-
+##### 参考链接：
 + [w3org](https://www.w3.org/TR/CSS21/zindex.html)
 + [层叠级别概述](http://w3help.org/zh-cn/kb/013/)
 
 
-curl -H ':method: POST' -H ':scheme: https' -H ':path: /signin/attentance/encryptSignIn?clientV=2-5.5.1-1-1&token=d105e557-a48a-44e7-8339-163592ee097c' -H ':authority: ezone.yonyoucloud.com' -H 'cookie: Hm_lvt_hongbao=1500017181,1501028642,1501806219' -H 'accept: */*' -H 'content-type: application/x-www-form-urlencoded; charset=UTF-8' -H 'accept-encoding: br, gzip, deflate' -H 'user-agent: esn/5.5.1 (iPhone; iOS 11.2; Scale/3.00)' -H 'accept-language: en-CN;q=1, zh-Hans-CN;q=0.9, ja-JP;q=0.8' -H 'content-length: 596' --data-binary "encryptedAttentance=B5696D98991A6A1998ADD3734B54C9E3BA487D918885195633C9A33BF796D0E7276FBA6A76B959D3946D0CFDFFD4AB5BEAEF8B004C11C55B213B5C090CA6E05C62392F2845E89B945302F808BD5AFF78CDBDDB64C98744FE90BF2DA8F6E4C17ED420972FA5A1995C0ADA5B89ACCF118E523CF2DBA1DC9234E3EB73B6A606DFD926B91CD49A9868A5BF715C722BC026425A0537EFB84989A32F815A7619B655E66AD373A593E20BB6E576297387C75896CC3FC99F4C96E16BB8A61315FBA2EBE00797F1F765822F02D11F524D6F9506EBCB10989F8495CC2D0683099A2FBCF6820762EA2EAA9FCCB6F5E07B9B924210C05DF7877479E17A78E095B2EE91ED51F78F1449E777AECB5C305F86C6EE518ABA7F8821544230BFB12F6329B390C293F6" 'https://ezone.yonyoucloud.com/signin/attentance/encryptSignIn?clientV=2-5.5.1-1-1&token=d105e557-a48a-44e7-8339-163592ee097c'
