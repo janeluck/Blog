@@ -5,14 +5,14 @@ tags: Css
 ---
 
 
-##### z-index<integer>:
+### z-index<integer>
 
 只适用于定位元素, 不可继承, 计算值同设定值。
 + 该值指定了元素在当前层叠上下文中的层叠级别
 + 同时生成一个局部层叠上下文
 
 
-##### 层叠规则:
+### 层叠规则
 
 1. 形成层叠上下文的元素的背景和边框
 2. 层叠级别为负值的后代层叠上下文
@@ -25,14 +25,14 @@ tags: Css
 ![](/uploads/stacklevel.png)
 
 
-##### 附注：
+#### 附注
 + 最初的层叠上下文是`root Element`
 + codepen:  <p data-height="265" data-theme-id="0" data-slug-hash="jzPpdP" data-default-tab="html,result" data-user="janeluck" data-embed-version="2" data-pen-title="z-index" class="codepen">See the Pen <a href="https://codepen.io/janeluck/pen/jzPpdP/">z-index</a> by janeluck (<a href="https://codepen.io/janeluck">@janeluck</a>) on <a href="https://codepen.io">CodePen</a>.</p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 
 
 
-##### 参考链接：
+#### 参考链接：
 + [w3org](https://www.w3.org/TR/CSS21/zindex.html)
 + [层叠级别概述](http://w3help.org/zh-cn/kb/013/)
 
