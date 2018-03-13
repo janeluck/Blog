@@ -17,3 +17,6 @@ tags: Git
 + git log --stat
 
 + git diff HEAD~ HEAD
+
++ git stash
++ git stash pop
