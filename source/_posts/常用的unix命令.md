@@ -23,7 +23,7 @@ $ grep -r [string] [path]
 
 + 在服务器之间拷贝文件
 ```
-$ scp  [file]   -P [port] [user]@[address]:[path]
+$ scp -P [port]  [file]    [user]@[address]:[path]
 ```
 
 + 从终端输入并写到指定文件
