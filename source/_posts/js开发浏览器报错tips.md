@@ -1,5 +1,5 @@
 ---
-title: js开发浏览器报错tips
+title: JavaScript开发浏览器报错Tips
 date: 2018-03-22 10:34:09
 tags: JavaScript
 ---
