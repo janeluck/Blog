@@ -13,7 +13,7 @@ tags: JavaScript
 
 通过var声明的变量可以重复声明, let只能声明一次
 
-```javascript
+```js
 for (var i = 0; i++; i < 10) {
   setTimeout(function () {
     console.log(i)

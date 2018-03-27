@@ -10,7 +10,7 @@ Q: "Uncaught TypeError: Illegal invocation" in Chrome
 A: 自定义对象里面写入了window原生的方法, 会导致报这个错误. 原生方法执行要求的上下文环境是`window`.
 L: [stackoverflow](https://stackoverflow.com/questions/9677985/uncaught-typeerror-illegal-invocation-in-chrome)
 
-```javascript
+```js
 // before:
 var myObj = {
   myAlert : alert //copying native alert to an object

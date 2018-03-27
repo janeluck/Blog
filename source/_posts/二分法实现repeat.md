@@ -6,7 +6,7 @@ tags:
 - JavaScript
 ---
 
-```javascript
+```js
 // ig: repeat("nodeJS", 2) -> nodeJSnodeJS
 
 function repeat(target, n){
