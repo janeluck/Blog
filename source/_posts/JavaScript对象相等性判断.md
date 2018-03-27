@@ -141,8 +141,6 @@ export {
 
 
 
-todo:
-+ 加入es6新类型数据结构的判断
 
 参考链接:
 + [lodash](https://lodash.com/docs/4.17.4)
