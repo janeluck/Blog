@@ -15,8 +15,11 @@ tags: Git
 
 + git log
 + git log --stat
-
++ git log --stat --author="jane"
 + git diff HEAD~ HEAD
 
 + git stash
 + git stash pop
+
++ git archive --format zip --output /full/path/to/zipfile.zip master
+
