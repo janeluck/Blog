@@ -16,6 +16,7 @@ tags:
 + 强制性转换
 + 模块加载机制
 + react-redux
++ manifest
 + immutable
 + 浏览器插件
 + npm package
