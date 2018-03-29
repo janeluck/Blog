@@ -67,7 +67,6 @@ date: 2018-03-22 11:09:09
 
 
   2. 使用
-
   ```javascript
   // 弃用直接引用
   // import  ReactEcharts from 'echarts-for-react'
