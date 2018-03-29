@@ -50,6 +50,53 @@ date: 2018-03-22 11:09:09
 [provide-plugin](https://webpack.js.org/plugins/provide-plugin/)
 - 动态加载
 [dynamic-imports](https://webpack.js.org/guides/code-splitting/#dynamic-imports)
+  使用`react-loadable`封装需要动态加载的组件, 并指定编译后的文件名
+  1. 封装
+  ```javascript
+  import Loadable from 'react-loadable'
+  import Loading from './Loading'
+
+  const AsyncEchartsForReact = Loadable({
+    // 'echarts-for-react' 为需要动态加载使用的组件
+    // webpackChunkName指定编译后的文件名
+    loader: () => import(/* webpackChunkName: "echarts-for-react" */ 'echarts-for-react'),
+    loading: Loading,
+  })
+  export default AsyncEchartsForReact
+  ```
+
+
+  2. 使用
+
+  ```javascript
+  // 弃用直接引用
+  // import  ReactEcharts from 'echarts-for-react'
+
+  // 引入封装过的组件
+  import  ReactEcharts from '...path/AsyncEchartsForReact'
+  ```
+
+  3. Loading组件
+  ```javascript
+  import React from 'react';
+  export default function Loading(props) {
+    if (props.isLoading) {
+        if (props.timedOut) {
+        return <div>Loader timed out!</div>;
+        } else if (props.pastDelay) {
+            return <div>Loading...</div>;
+        } else {
+            return null;
+        }
+    } else if (props.error) {
+        return <div>Error! Component failed to load</div>;
+    } else {
+        return null;
+    }
+   }
+  ```
+
+
 
 <!-- - webpack编译的时候 ctrl+c没用 kill -9 -->
 
@@ -57,3 +104,4 @@ date: 2018-03-22 11:09:09
 ### 参考链接
 - [文件命名大小写.维基百科](https://en.wikipedia.org/wiki/Filename#Letter_case_preservation)
 - [webpack.alias](https://webpack.js.org/configuration/resolve/)
+- [react-router/code-spliting](https://reacttraining.com/react-router/web/guides/code-splitting)
