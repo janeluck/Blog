@@ -5,6 +5,11 @@ tags:
 
 ajax
 
+```javascript
+
+```
+
+
 fetch
 
 
