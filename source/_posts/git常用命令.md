@@ -22,4 +22,4 @@ tags: Git
 + git stash pop
 
 + git archive --format zip --output /full/path/to/zipfile.zip master
-
++ git config core.ignorecase false
