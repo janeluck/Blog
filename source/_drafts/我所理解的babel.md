@@ -1,4 +1,8 @@
 ---
 title: 我所理解的babel
-tags:
+tags: Babel
 ---
+
+### .babelrc
++ preset
+  - react
