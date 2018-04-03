@@ -24,3 +24,4 @@ tags: Git
 + git archive --format zip --output /full/path/to/zipfile.zip master
 + git config core.ignorecase false
 + git merge -X theirs origin/master
++ git remote update origin  --prune 更新本地的远程分支列表
