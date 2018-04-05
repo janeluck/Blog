@@ -4,8 +4,20 @@ tags:
 ---
 
 ajax
+HttpXMLRequest的四种状态
+
 
 ```javascript
+
+var xhr = new HttpXMLRequest()
+xhr.onreadystatechange = function(){
+    if(xhr.readyState === 4 && xhr.status == 200){
+
+    }
+}
+
+xhr.open('GET', url)
+xhr.send()
 
 ```
 
