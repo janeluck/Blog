@@ -1,6 +1,6 @@
 ---
 title: fetch和ajax
-tags:
+tags: JavaScript
 ---
 
 ajax
