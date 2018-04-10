@@ -16,3 +16,9 @@ tags: JavaScript
 优点
 1. 便于线上错误收集，只需要发送 states, actions 等快照即可
 2. 时光旅行 Undo／Redo
+
+
+
+### 参考链接
+- [Immutable Data Structures and JavaScript](https://jlongster.com/Using-Immutable-Data-Structures-in-JavaScript)
+
