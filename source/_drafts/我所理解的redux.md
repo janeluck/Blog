@@ -21,6 +21,35 @@ tags: JavaScript
 
 5. 发布订阅系统
 
+6. redux-thunk
+
+   action可以写成函数, 并返回action(dispatch, getState)
+   如果返回了Promise, 可以链式调用
+   ```javascript
+
+   const action = funtion(){
+    return function(dispatch, getState){
+
+        return new Promise(function(resolve, reject){
+
+            dispatch({
+                type: 'action1',
+                payload: 'data'
+
+            })
+
+            resolve()
+
+        })
+    }
+   }
+
+   dispatch(action()).then(function(){
+     // 在action1改变state之后执行下面代码
+   })
+   ```
+
+
 缺点
 1. 繁琐
 2. localStorage, cookie这种本地数据如何接入redux
