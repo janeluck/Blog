@@ -26,3 +26,7 @@ tags: Git
 + git merge -X theirs origin/master
 + git remote update origin  --prune 更新本地的远程分支列表
 + git cherry-pick  commithash  只合并某一次提交
+
+
++ git checkout tags/<tag-name> -b <branch-name>
++ git tag -l
