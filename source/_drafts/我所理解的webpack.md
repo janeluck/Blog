@@ -5,3 +5,6 @@ tags:
 - Webpack
 ---
 
+
+provideplugin
+动态加载
