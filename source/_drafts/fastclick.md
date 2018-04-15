@@ -1,0 +1,4 @@
+---
+title: fastclick
+tags:
+---
