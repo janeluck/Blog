@@ -30,3 +30,8 @@ tags: Git
 
 + git checkout tags/<tag-name> -b <branch-name>
 + git tag -l
+
++ git show branch:path/file
+
+gitconfig的filemode用于设置是否记录文件权限的改变
+
