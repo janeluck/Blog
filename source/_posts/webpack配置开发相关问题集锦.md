@@ -18,7 +18,7 @@ date: 2018-03-22 11:09:09
 - alias
     开发中可以简写某个目录文件路径, 不用总写相对路径, 尤其适合自定义模块的引用。
     `webpack`的config添加配置为:
-    ```js
+    ```javacript
     {
         resolve: {
 
