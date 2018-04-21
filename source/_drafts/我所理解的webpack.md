@@ -8,3 +8,8 @@ tags:
 
 provideplugin
 动态加载
+
+loader:
+
+    style-loader
+    css-loader
