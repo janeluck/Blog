@@ -20,3 +20,6 @@ tags: JavaScript
 ### react-redux的依赖
 
 + shallowEqual
+
+
++ selectors???
