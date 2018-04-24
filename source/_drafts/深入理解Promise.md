@@ -10,6 +10,7 @@ catch error
 
 
 
+
 promise流程中, resolve作为异步, 在语句块里面最后执行
 
 ```JavaScript

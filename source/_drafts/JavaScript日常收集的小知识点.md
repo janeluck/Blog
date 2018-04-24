@@ -11,5 +11,10 @@ layout thrashing
 
 
 
+
+localStorage在safari无痕浏览模式下报错问题
+
+
+
 https://devhints.io/layout-thrashing
 https://developers.google.com/web/fundamentals/performance/rendering/avoid-large-complex-layouts-and-layout-thrashing
