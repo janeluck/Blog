@@ -14,3 +14,11 @@ tags: JavaScript
 #### Bom
 + location
 
+
+
+
+###  我所理解的JavaScript
+
+单线程
+调用栈
+自动内存回收???
