@@ -22,4 +22,5 @@ tags: JavaScript
 + shallowEqual
 
 
-+ selectors???
++ selectors
+    reselector

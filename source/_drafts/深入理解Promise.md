@@ -72,3 +72,9 @@ p.then(() => {
 // 0 1 2 3 4 5
 ```
 
+
+
+ [Promise/A+ 规范](https://promisesaplus.com/)
+ [JavaScript Promise 探微](http://www.ituring.com.cn/article/120765)
+
+
