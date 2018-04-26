@@ -78,3 +78,5 @@ p.then(() => {
  [JavaScript Promise 探微](http://www.ituring.com.cn/article/120765)
 
 
+
+
