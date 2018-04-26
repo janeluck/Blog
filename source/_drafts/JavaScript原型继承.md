@@ -11,3 +11,7 @@ good and bad
 compare
 
 
+
+
+new关键字
+返回一个对象
