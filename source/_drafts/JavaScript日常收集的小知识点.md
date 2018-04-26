@@ -5,7 +5,9 @@ tags:
 
 
 同步ajax请求阻塞ui渲染
-setTimeout的妙用
+#### setTimeout的妙用
++ 跳出当前栈promise resolve实现的时候
+
 
 layout thrashing
 
