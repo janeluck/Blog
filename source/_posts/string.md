@@ -9,3 +9,7 @@ string
 + splice
 + substr
 + substring
+
+
++ charAt
++ fromCharCode: UTF-16对应编码
