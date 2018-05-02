@@ -22,3 +22,9 @@ tags: JavaScript
 单线程
 调用栈
 自动内存回收???
+
+
+用户交互等决定了JavaScript是单线程的
+
+javascript单线程
+伪异步
