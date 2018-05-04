@@ -18,6 +18,12 @@ diff算法
 
 
 
+element
+rendering
+patching
+component
+
+
 
 
 
@@ -29,6 +35,20 @@ react element
 
 react setState是异步的
 连续点击按钮时的问题
+
+
+
+diff type
+- remove
+- move
+- modify props
+
+vdom diff算法标记处dirty组件, 放入updates里
+
+传入parentNode  node  type
+
+统一执行
+
 
 
 
