@@ -141,11 +141,12 @@ export {
 ```
 
 
-### 实用判断(判断某对象a)
+### 实用判断(判断某对象a是否为特定值)
 
 + false: `a === false`
 + undefined: `typeof a === 'undefined'`
 + null: `a === null`
+
 
 
 
