@@ -66,6 +66,7 @@ tags: Regex
 
 #### 参考链接
 [正则测试](https://tool.lu/regex/)
+[JavaScript regular expressions](https://flaviocopes.com/javascript-regular-expressions/)
     
     
     
