@@ -141,6 +141,16 @@ export {
 ```
 
 
+### 实用判断(判断某对象a)
+
++ false: `a === false`
++ undefined: `typeof a === 'undefined'`
++ null: `a === null`
+
+
+
+
+
 
 
 参考链接:
