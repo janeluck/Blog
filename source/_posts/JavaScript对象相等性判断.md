@@ -16,11 +16,12 @@ tags: JavaScript
 ##### 原生js存在的不完善地方,这里列举一些常用到的特例:
 
  + 原生会返回true的情况:
-  - `null == undefined`(通过`null === undefined`返回false修正)
-  - `-0 === +0`(通过`-Infinity === Infinity`返回false修正)
-  - `NaN !== NaN`(通过`if(a!==a) return (b!==b)`修正)
+    - `null == undefined`(通过`null === undefined`返回false修正)
+    - `-0 === +0`(通过`-Infinity === Infinity`返回false修正)
+    - `NaN !== NaN`(通过`if(a!==a) return (b!==b)`修正)
+
  + 原生会返回false
-  - 经过对象包装的原始类型的比较: `new Number(1) === 1` (原生的这样判断其实是无可厚非的, 实际运用中我们统一都归为相等)
+    - 经过对象包装的原始类型的比较: `new Number(1) === 1` (原生的这样判断其实是无可厚非的, 实际运用中我们统一都归为相等)
 
 
 ### 用到的工具:
