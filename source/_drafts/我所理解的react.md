@@ -70,9 +70,23 @@ vdom diff算法标记处dirty组件, 放入updates里
 onClickCapture 冒泡阶段执行
 onClick 捕获阶段执行
 
+
+
 注意事项
 在componentDidMount时绑定事件
 在componentWillUnmount时解绑事件
+
+总结
+合成事件的监听器统一注册在了`document`上, 且仅是冒泡机制
+所以
+
+1. 绑定在原生dom上的监听事件会先于react触发, 且`stopPropagation`后, react事件无法再触发
+
+2. react事件的执行顺序是冒泡机制, 如果需要使用捕获机制, 换事件绑定的方法名, 比如`onClick`为`onClickCapture`
+
+
+猜想原因, 可变参数会导致复杂性
+
 
 
 - [react-deep-dive](https://zackargyle.github.io/react-internals-slides/#/0?_k=2v96r2)
