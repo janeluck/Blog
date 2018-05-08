@@ -25,6 +25,8 @@ tags:
 + queryString
 
 
++ token ?
+
 动画
 蚂蚁animation
 组件封装, 通过切换样式名达到动画的效果
