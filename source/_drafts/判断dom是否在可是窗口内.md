@@ -5,3 +5,14 @@ tags:
 
 
 http://yiminghe.iteye.com/blog/1124720
+
+
+js操作dom常用api
+
+appendChild
+removeChild
+
+
+js获得计算后的样式
+
+
