@@ -35,3 +35,5 @@ tags: Git
 
 gitconfig的filemode用于设置是否记录文件权限的改变
 
+禁止git对中文文件名转码
+git config core.quotepath false
