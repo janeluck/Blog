@@ -72,6 +72,16 @@ tags:
     + 常用util
         + lodash
 
++ Dom
+    + 常用属性和操作
+
+
++ Bom
+    + window
+    + navigator
+    + history
+    + 存储相关
+    + cookie, session
 
 
 + 浏览器
@@ -103,6 +113,8 @@ tags:
     + 压缩
     + http1, http1.1与webSocket
     + 状态码
+
+
 
 
 
