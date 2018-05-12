@@ -27,3 +27,46 @@ HTTP是基于TCP/IP协议
 
 
 
+
+
+uri统一资源标识符， url是统一资源定位标识
+url是uri实现的一种方式
+
+url的组成格式
+
+|协议|://|登录信息(optional)|服务器地址|端口号|带层次的文件路径|查询字符串|片段标识符|
+|-|-|
+|http|://|user:passwd@|www.example.com|80|/dir/index.html|?uid=1|#ch1|
+
+https
+http
+ftp
+
+
+
+http通信的两端 必定一个为客户端, 一个为服务端
+
+
+告知浏览器意图的http方法
+
++ get
++ post
++ put
++ delete
++ head
++ trace
++ connect(proxy)
+
+
+http1加入了keep-alive, 只要任意一端没有提出明确的断开连接，就保持tcp的连接状态
+
+管线化 不用等当前请求返回可以直接发送下一个连接
+
+？？？ 同事发起请求的域名和数量限制
+
+
+
+http是无状态协议, 引进了cookie做状态管理
+服务端发送http响应头部`Set-Cookie`字段写入cookie控制客户端的状态, 下次请求时客户端会自动带上cookie
+
+服务器端发现客户端发送过来的 Cookie 后，会去检查究竟是从哪一个客户端发来的连接请求，然后对比服务器上的记录，最后得到之前的状态信息
