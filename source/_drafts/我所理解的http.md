@@ -152,3 +152,35 @@ HTTP 首部字段将定义成缓存代理和非缓存代理的行为
     - TE
     - Transfer-Encoding
     - Upgrade
+
+
+
+通用首部字段
+    + Cache-Control
+        + no-cache: 强制向源服务器再次验证
+
+        + no-store: 不缓存请求或响应的任何内容
+
+        + s-maxage
+        + max-age=604800（单位：秒）
+        + ...
+
+    + Pragma
+    + connection
+
+
+        + 控制不再转发给代理的首部字段
+        + 管理持久连接
+
+
+    + Date
+
+    + Via
+
+
+
+
+
+
+
+客户端  <=> 缓存服务器  <=>  源服务器

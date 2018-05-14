@@ -17,3 +17,6 @@ Number
 千分号
 补位0
 
+#### 参考链接
+
+- [JavaScript 浮点数陷阱及解法](https://github.com/camsong/blog/issues/9)

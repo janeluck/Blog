@@ -30,3 +30,4 @@ fetch
 
 [Ajax函数封装](https://segmentfault.com/a/1190000004168721)
 [fetch使用的常见问题及其解决办法](https://segmentfault.com/a/1190000008484070)
+[传统 Ajax 已死，Fetch 永生](https://github.com/camsong/blog/issues/2)
