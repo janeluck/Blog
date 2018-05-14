@@ -179,6 +179,18 @@ HTTP 首部字段将定义成缓存代理和非缓存代理的行为
 
 
 
+请求首部字段
+
+
+    + Accept: type/subtype
+    + Accept-Charset
+    + Accept-Encoding
+    + Accept-Language
+    + Authorizatio
+    + Expect
+    + From
+    + Host
+    + If-Match: 形如 If-xxx 这种样式的请求首部字段，都可称为条件请求。服务器接收到附带条件的请求后，只有判断指定条件为真时，才会执行请求
 
 
 
