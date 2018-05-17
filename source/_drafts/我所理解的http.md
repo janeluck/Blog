@@ -206,3 +206,11 @@ https http + ssl
 公私钥
 
 CA是对公钥的认证
+
+
+http认证
+
++ Basic认证(基本认证): 返回401
++ Digest(摘要认证)
++ SSL认证(客户端认证)
++ FormBase认证(表单认证)
