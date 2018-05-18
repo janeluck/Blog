@@ -214,3 +214,7 @@ http认证
 + Digest(摘要认证)
 + SSL认证(客户端认证)
 + FormBase认证(表单认证)
+
+
+
+cookie的httpOnly JavaScript不可访问
