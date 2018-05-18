@@ -218,3 +218,12 @@ http认证
 
 
 cookie的httpOnly JavaScript不可访问
+
+
+
+http的缺点
+
++ 请求只能从客户端发起，无法从服务端推送
++ 无法实现双方实时通信
+
+
