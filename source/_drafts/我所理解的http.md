@@ -227,3 +227,14 @@ http的缺点
 + 无法实现双方实时通信
 
 
+
+websocket
+
+websocket基于http
+
+1. 首先由客户端发起, 头部字段设置为Upgrade: websocket
+2. 服务端接受返回101切换协议
+
+之后转变为websocket协议支持双工通信
+
+
