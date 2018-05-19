@@ -35,3 +35,16 @@ $ cat > [filename]
 ```
 $ npm list --depth=0 |grep [name]
 ```
+
+
+
++ 网络相关
+```
+$ host github.com
+
+$ nsloopup github.com
+
+
+```
+
+
