@@ -12,7 +12,7 @@ tags:
     - js
     - react
 [动画](https://developers.google.com/web/fundamentals/design-and-ux/animations/?hl=zh-cn)
-
+https://tech.youzan.com/react-animations/?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io
 
 + 事件触发顺序
 + 按钮防弹跳
