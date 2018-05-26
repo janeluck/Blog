@@ -240,4 +240,8 @@ websocket基于http
 
 
 
+http options
+跨域相关
 
+
+https://juejin.im/entry/58eaf351a22b9d0058a8e35c
