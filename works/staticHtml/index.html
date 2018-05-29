@@ -3,16 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <script>
+        var ing = false
+
+        function A() {
+            console.log(ing)
+            if (ing) {
+                return
+            }
+            ing = true
+            console.log("on click")
+            setTimeout(function () {
+                ing = false
+                console.log('resolved')
+            }, 3000)
+
+        /*    var p = new Promise(function (resolve) {
+                setTimeout(resolve, 3000)
+            })
+            p.then(function () {
+                ing = false
+                console.log('resolved')
+            })
+*/
+        }
+
+    </script>
 
 </head>
 <body>
-<script>
+<!--<script>
     window.onerror = function (msg) {
         console.log(arguments)
         return true
     }
 </script>
-<script src="willError.js"></script>
+<script src="willError.js"></script>-->
+
+<button onclick="A()">AAAAAAAA</button>
+
 
 </body>
 </html>
