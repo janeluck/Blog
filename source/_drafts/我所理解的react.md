@@ -89,6 +89,12 @@ onClick 捕获阶段执行
 
 
 
+问题
+统一渲染？
+如何做到事务机制
+
+
+
 - [react-deep-dive](https://zackargyle.github.io/react-internals-slides/#/0?_k=2v96r2)
 - [React源码解析](http://zhenhua-lee.github.io/react/react.html)
 - [react-inline-function](https://cdb.reacttraining.com/react-inline-functions-and-performance-bdff784f5578)
