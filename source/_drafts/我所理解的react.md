@@ -98,6 +98,18 @@ worker线程？
 
 
 
+虚拟dom
+有效的dom嵌套
+validate dom nesting
+
+
+
+react是一种批量更新机制
+通过事务做到的
+
+
+
+
 - [react-deep-dive](https://zackargyle.github.io/react-internals-slides/#/0?_k=2v96r2)
 - [React源码解析](http://zhenhua-lee.github.io/react/react.html)
 - [react-inline-function](https://cdb.reacttraining.com/react-inline-functions-and-performance-bdff784f5578)
