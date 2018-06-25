@@ -116,3 +116,4 @@ react是一种批量更新机制
 - [react-inline-function](https://cdb.reacttraining.com/react-inline-functions-and-performance-bdff784f5578)
 - [setState之后发生了什么](http://undefinedblog.com/what-happened-after-set-state/)
 - [react-inline-function](https://cdb.reacttraining.com/react-inline-functions-and-performance-bdff784f5578)
+- [how-virtual-dom-and-diffing-works-in-react](https://medium.com/@gethylgeorge/how-virtual-dom-and-diffing-works-in-react-6fc805f9f84e)
