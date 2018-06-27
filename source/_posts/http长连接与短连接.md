@@ -1,9 +1,12 @@
 ---
+layout: '[post]'
 title: http长链接与短连接
 tags:
-- http
-- tcp
+  - http
+  - tcp
+date: 2018-06-28 06:58:34
 ---
+
 
 
 
