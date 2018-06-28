@@ -115,6 +115,7 @@ react是一种批量更新机制
 
 - [react-deep-dive](https://zackargyle.github.io/react-internals-slides/#/0?_k=2v96r2)
 - [React源码解析](http://zhenhua-lee.github.io/react/react.html)
+- [从react源码看Virtual Dom到真实Dom的渲染过程](https://www.jianshu.com/p/df0b5a009e92)
 - [react-inline-function](https://cdb.reacttraining.com/react-inline-functions-and-performance-bdff784f5578)
 - [setState之后发生了什么](http://undefinedblog.com/what-happened-after-set-state/)
 - [react-inline-function](https://cdb.reacttraining.com/react-inline-functions-and-performance-bdff784f5578)
