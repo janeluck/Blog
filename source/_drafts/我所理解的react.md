@@ -102,7 +102,7 @@ worker线程？
 有效的dom嵌套
 validate dom nesting
 
-
+setState的回调是在dom完全渲染后？？？怎么保证
 
 react是一种批量更新机制
 通过事务做到的
