@@ -25,7 +25,7 @@ xhr.send()
 fetch
 
 
-fetch
+
 
 
 [Ajax函数封装](https://segmentfault.com/a/1190000004168721)
