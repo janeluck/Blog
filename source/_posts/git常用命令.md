@@ -16,6 +16,7 @@ tags: Git
 + git log
 + git log --stat
 + git log --stat --author="jane"
++ git log master
 + git diff HEAD~ HEAD
 
 + git stash
@@ -28,9 +29,9 @@ tags: Git
 + git cherry-pick  commithash  只合并某一次提交
 
 
++ git checkout commit-version file-path
 + git checkout tags/<tag-name> -b <branch-name>
 + git tag -l
-
 + git show branch:path/file
 
 gitconfig的filemode用于设置是否记录文件权限的改变
