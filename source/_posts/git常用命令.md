@@ -34,6 +34,9 @@ tags: Git
 + git tag -l
 + git show branch:path/file
 
+删除远程分支
++ git push <remote_name> :<branch_name>
+
 gitconfig的filemode用于设置是否记录文件权限的改变
 
 禁止git对中文文件名转码
