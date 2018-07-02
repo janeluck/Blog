@@ -32,6 +32,8 @@ p.then(() => {
 
 但是比setTimeout的执行要优先, 因为setTimeout至少有4ms的延迟
 
+// 真实原因是宏任务和微任务的调度优先级
+
 ```JavaScript
 
 // setTimeout第二个参数没有指定 也至少有4ms的延迟, 所以先执行的resolve
@@ -71,6 +73,12 @@ p.then(() => {
 ```console
 // 0 1 2 3 4 5
 ```
+
+
+// 从零写一个遵循Promise/A+ 规范的Promise
+
+
+
 
 
 

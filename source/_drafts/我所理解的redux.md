@@ -62,4 +62,5 @@ tags: JavaScript
 
 ### 参考链接
 - [Immutable Data Structures and JavaScript](https://jlongster.com/Using-Immutable-Data-Structures-in-JavaScript)
+- [Redux 初见](https://segmentfault.com/a/1190000006671759)
 
