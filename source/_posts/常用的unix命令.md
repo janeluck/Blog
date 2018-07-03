@@ -24,6 +24,8 @@ $ grep -r [string] [path]
 
 ```
 $ find . -name '*.orig' #-delete
+# or
+$ find ./ -name ".orig" -exec rm -rf {} \;
 ```
 
 + 在服务器之间拷贝文件
