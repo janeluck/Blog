@@ -20,6 +20,11 @@ $ find ./ -name [directoryname] -type d
 $ grep -r [string] [path]
 ```
 
++ 批量删除当前文件夹下符合命名规则的文件
+
+```
+$ find . -name '*.orig' #-delete
+```
 
 + 在服务器之间拷贝文件
 ```
