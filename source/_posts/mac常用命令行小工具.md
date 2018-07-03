@@ -12,11 +12,6 @@ tags:
 # 树形显示当前目录的文件信息并忽略node_modules
 treen='tree -I node_modules'
 
-# git 相关
-gam='git commit -a -m'
-gp='git push'
-gpo='git pull origin master'
-```
 
 ### bash
 脚本放在`/usr/local/bin`下
