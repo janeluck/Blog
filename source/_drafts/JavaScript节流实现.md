@@ -16,9 +16,9 @@ http://www.goyth.com/2018/05/10/debounceAndThrottle/
 概念
 
 
-节流是限制规定短时间内函数执行的频率
+节流 是限制规定短时间内函数执行的频率
 
-去抖是限定时间内只执行一次
+去抖/防弹跳 是限定时间内只执行一次
 
 应用场景
 
@@ -56,3 +56,5 @@ http://www.goyth.com/2018/05/10/debounceAndThrottle/
 
 - [The Difference Between Throttling and Debouncing](https://css-tricks.com/the-difference-between-throttling-and-debouncing/)
 - [Debouncing and Throttling Explained Through Examples](https://css-tricks.com/debouncing-throttling-explained-examples/)
+- [lodash.debounce](https://lodash.com/docs/4.17.10#debounce)
+- [lodash.throttle](https://lodash.com/docs/4.17.10#throttle)
