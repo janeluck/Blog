@@ -13,13 +13,14 @@ http://www.goyth.com/2018/05/10/debounceAndThrottle/
 
 节流(throttle)与去抖(debounce)
 
+概念
 
 
 节流是限制规定短时间内函数执行的频率
 
 去抖是限定时间内只执行一次
 
-
+应用场景
 
 节流的应用场景
 
@@ -40,3 +41,18 @@ http://www.goyth.com/2018/05/10/debounceAndThrottle/
 
 
 
+
+实现
+
+
+扩展
+
+    函数在计时阶段开始时执行还是结束时执行
+
+
+
+
+##### 参考链接
+
+- [The Difference Between Throttling and Debouncing](https://css-tricks.com/the-difference-between-throttling-and-debouncing/)
+- [Debouncing and Throttling Explained Through Examples](https://css-tricks.com/debouncing-throttling-explained-examples/)
