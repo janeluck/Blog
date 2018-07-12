@@ -28,3 +28,10 @@ export const getRoundValue = (value, decimal) => {
   const pow = Math.pow(10, decimal);
   return (Math.round(value * pow) / pow).toFixed(decimal);
 }
+
+
+比较大小
+绝对值
+Math.min
+
+_.minBy([], Math.abs)
