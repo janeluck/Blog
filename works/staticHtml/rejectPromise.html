@@ -10,61 +10,79 @@
      * Created by jane on 08/08/2018.
      */
 
-   /* const a = new Promise(function (resolve, reject) {
-        setTimeout(function () {
-            reject('secret of javascript')
-        })
+    /* const a = new Promise(function (resolve, reject) {
+     setTimeout(function () {
+     reject('secret of javascript')
+     })
 
+     })
+     const b = new Promise(function (resolve, reject) {
+     i++
+
+     })
+
+     a.then(function () {
+
+     }, function (err) {
+     console.log(err)
+     })
+
+     b.then(function () {
+
+     }, function (err) {
+     console.log('b:' + err)
+     }).catch(function (result) {
+     console.log('b:catch:' + result)
+     })
+
+
+     Promise.reject().then(function () {
+
+     }, function () {
+
+     })*/
+
+
+    /*const d = new Promise(function (resolve, reject) {
+     resolve()
+
+     })
+     d.then(function () {
+     throw new Error()
+     }, function (ee) {
+
+     })
+
+     const f = new Promise(function (resolve, reject) {
+     resolve()
+
+     })
+     f.then(function () {
+     throw new Error()
+     }, function () {
+
+     }).catch(function (result) {
+     console.log('d:catch:' + result)
+
+     })*/
+
+    const o = new Promise(function (resolve) {
+        resolve('o:resolved')
     })
-    const b = new Promise(function (resolve, reject) {
-        i++
+    var num = 0
+    function logMsg(msg) {
+        console.log(msg)
+        num++
+        if(num == 2){
+            throw new Error('break in ' + num)
+        }
+        return msg + '~o.then.promise~' + num
+    }
 
-    })
-
-    a.then(function () {
-
-    }, function (err) {
+    o.then(logMsg).then(logMsg).then(logMsg).then(logMsg).then(logMsg).catch(function (err) {
         console.log(err)
     })
 
-    b.then(function () {
-
-    }, function (err) {
-        console.log('b:' + err)
-    }).catch(function (result) {
-        console.log('b:catch:' + result)
-    })
-
-
-    Promise.reject().then(function () {
-
-    }, function () {
-
-    })*/
-
-
-    const d = new Promise(function (resolve, reject) {
-        resolve()
-
-    })
-    d.then(function () {
-        throw new Error()
-    }, function (ee) {
-
-    })
-
-    const f = new Promise(function (resolve, reject) {
-        resolve()
-
-    })
-    f.then(function () {
-        throw new Error()
-    }, function () {
-
-    }).catch(function (result) {
-        console.log('d:catch:' + result)
-
-    })
 
 </script>
 </body>
