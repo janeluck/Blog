@@ -8,6 +8,10 @@ reject后怎么处理
 catch error
 
 
+如果有onRejected回调声明，就可以捕获异常
+写promise的时候养成习惯写上catch
+
+
 
 
 
