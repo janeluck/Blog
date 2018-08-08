@@ -10,6 +10,7 @@ catch error
 
 如果有onRejected回调声明，就可以捕获异常
 写promise的时候养成习惯写上catch
+catch比onreject强大
 
 
 
@@ -88,6 +89,7 @@ p.then(() => {
 
  [Promise/A+ 规范](https://promisesaplus.com/)
  [JavaScript Promise 探微](http://www.ituring.com.cn/article/120765)
+ [Promise : then vs  catch](https://stackoverflow.com/questions/33278280/promise-then-vs-then-catch)
 
 
 

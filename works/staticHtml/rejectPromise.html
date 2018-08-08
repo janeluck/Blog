@@ -10,7 +10,7 @@
      * Created by jane on 08/08/2018.
      */
 
-    const a = new Promise(function (resolve, reject) {
+   /* const a = new Promise(function (resolve, reject) {
         setTimeout(function () {
             reject('secret of javascript')
         })
@@ -40,7 +40,32 @@
 
     }, function () {
 
+    })*/
+
+
+    const d = new Promise(function (resolve, reject) {
+        resolve()
+
     })
+    d.then(function () {
+        throw new Error()
+    }, function (ee) {
+
+    })
+
+    const f = new Promise(function (resolve, reject) {
+        resolve()
+
+    })
+    f.then(function () {
+        throw new Error()
+    }, function () {
+
+    }).catch(function (result) {
+        console.log('d:catch:' + result)
+
+    })
+
 </script>
 </body>
 </html>
