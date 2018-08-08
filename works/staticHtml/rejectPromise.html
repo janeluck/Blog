@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    /**
+     * Created by jane on 08/08/2018.
+     */
+
+    const a = new Promise(function (resolve, reject) {
+        setTimeout(function () {
+            reject('secret of javascript')
+        })
+
+    })
+    const b = new Promise(function (resolve, reject) {
+        i++
+
+    })
+
+    a.then(function () {
+
+    }, function (err) {
+        console.log(err)
+    })
+
+    b.then(function () {
+
+    }, function (err) {
+        console.log('b:' + err)
+    }).catch(function (result) {
+        console.log('b:catch:' + result)
+    })
+
+
+    Promise.reject().then(function () {
+
+    }, function () {
+
+    })
+</script>
+</body>
+</html>
