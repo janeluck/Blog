@@ -28,6 +28,9 @@ tags: Git
 + git remote update origin  --prune 更新本地的远程分支列表
 + git cherry-pick  commithash  只合并某一次提交
 
++ git reset --hard HEAD^  回归刚写的commit之前，该操作并未删除commit，只是重新设置了head和branch
+
+
 
 + git checkout commit-version file-path
 + git checkout tags/<tag-name> -b <branch-name>
