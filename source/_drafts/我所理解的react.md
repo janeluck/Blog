@@ -141,3 +141,27 @@ react input value 为null的情况变成了非受控组件
 - [setState之后发生了什么](http://undefinedblog.com/what-happened-after-set-state/)
 - [react-inline-function](https://cdb.reacttraining.com/react-inline-functions-and-performance-bdff784f5578)
 - [how-virtual-dom-and-diffing-works-in-react](https://medium.com/@gethylgeorge/how-virtual-dom-and-diffing-works-in-react-6fc805f9f84e)
+
+
+
+
+
+react diff算法
+
+
+标准的diff算法：
+给定任意两棵树，最快转换步骤为O(N^3)
+
+
+
+逐层比较
+
+两棵树O(N3) -> O(N)线性复杂度
+
+每种操作怎么去做
+
+
+虚拟dom的两个假设
+
++ 组件的dom结构相对稳定（很少有跨层移动）
++ 类型相同兄弟节点的顺序可通过唯一标识(key)辨认
