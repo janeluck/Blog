@@ -4,6 +4,8 @@ tags: JavaScript
 ---
 
 
+还可以基于iterator遍历
+
 对于树形结构数据的遍历
 
 ```
