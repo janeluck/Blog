@@ -4,7 +4,6 @@ date: 2018-02-20 20:25:04
 tags: MongoDB
 ---
 
-[MongoDB Cook Book](http://wiki.jikexueyuan.com/project/mongodb/mongodb-php.html)
 
 ### MongoDB: 面向文档的数据库，主要面向集合和文档
 
