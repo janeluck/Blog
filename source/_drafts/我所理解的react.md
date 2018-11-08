@@ -118,12 +118,12 @@ setState
 有效的dom嵌套
 validate dom nesting
 
-setState的回调是在dom完全渲染后？？？怎么保证
+setState的回调是在dom完全渲染后
 
 react是一种批量更新机制,ui的更新也是批量的，有效防止了布局抖动
 通过事务做到的
 
-脏组件数组根据挂载序列排序，避免父组件已在更新队列的子组件多次更新
+脏组件数组根据挂载序列排序mount order，避免父组件已在更新队列的子组件多次更新
 
 
 detachref
